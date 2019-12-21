@@ -11,11 +11,11 @@ body {
 /*----------------------HEADER STYLES-----------------------*/
 header {
 	background: url('../img/hero-image.png');
-	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    min-width: 100%;
 	font-size: 1rem;
 	height: 750px;
-	
-
 }
 
 header h1 {
@@ -23,6 +23,7 @@ header h1 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 3.75em;
 	text-align: center;
+	padding-top: 350px;
 }
 
 header p {
@@ -30,6 +31,9 @@ header p {
 	font-size: 3em;
 	text-align: center;
 	color: #095256;
+	width: 17em;
+	padding-left: 300px;
+
 }
 
 /*----------------------MY PORTFOLIO STYLES--------------------*/
@@ -38,8 +42,32 @@ header p {
 	font-size: 1rem;
 }
 
+#my-portfolio h2 {
+	color: #095256;
+	text-align: center;
+}
+
+.screenshots, {
+	width: 700px;
+	float: left;	
+}
+
+.project-descriptions {
+	width: 700px;
+	float: right;
+}
+
+.img-1, .img-2, .img-3 {
+	width: 550px;
+	height: 300px;
+	padding-left: 400px;
+}
 /*----------------------ABOUT ME STYLES------------------------*/
 #about-me {
 	background: #087e8b;
 	font-size: 1rem;
+	float: left;
+}
+#about-me h2 {
+	text-align: center;
 }
