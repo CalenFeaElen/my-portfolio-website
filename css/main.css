@@ -1,0 +1,45 @@
+/*----------------------BASE STYLES-------------------------*/
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+html {
+	font-size: 16px;
+
+}
+body {
+	width: 1400px;
+}
+/*----------------------HEADER STYLES-----------------------*/
+header {
+	background: url('../img/hero-image.png');
+	background-repeat: no-repeat;
+	font-size: 1rem;
+	height: 750px;
+	
+
+}
+
+header h1 {
+	color: #bdbf09;
+	font-family: 'Roboto Slab', serif;
+	font-size: 3.75em;
+	text-align: center;
+}
+
+header p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	text-align: center;
+	color: #095256;
+}
+
+/*----------------------MY PORTFOLIO STYLES--------------------*/
+#my-portfolio {
+	background: #ffffff;
+	font-size: 1rem;
+}
+
+/*----------------------ABOUT ME STYLES------------------------*/
+#about-me {
+	background: #087e8b;
+	font-size: 1rem;
+}
