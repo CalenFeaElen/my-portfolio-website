@@ -7,15 +7,23 @@ html {
 }
 body {
 	max-width: 1400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 /*----------------------HEADER STYLES-----------------------*/
 header {
 	background: url('../img/hero-image.png');
 	background-position: center;
     background-size: cover;
-    min-width: 100%;
 	font-size: 1rem;
 	height: 750px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-flow: row wrap;
 }
 
 header h1 {
@@ -33,7 +41,8 @@ header p {
 	text-align: center;
 	color: #095256;
 	width: 17em;
-	padding-left: 300px;
+	
+
 
 }
 
@@ -42,51 +51,38 @@ header p {
 	background: #ffffff;
 	color: #095256;
 	font-size: 1rem;
-	width: 1400px;
-}
-
-#my-portfolio h2 {
-	text-align: center;
-	font-size: 2.25em;
-}
-
-.project-descriptions {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
-	float: right;
-	width: 550px;
-	padding-right: 50px;
-	padding-left: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 	
 }
 
-.project-descriptions h3 {
-	font-weight: bold;
+#my-portfolio-header {
+	text-align: center;
+	font-size: 2.25em;
+	width: 100%;
 }
 
-.screenshots {
-	width: 550px;
-	float: left;
-	padding-left: 100px;
-	margin-left: 0;
-	margin-right: 50px;
-}
+#jubilee-austen h3, #rogue-pickings h3, #holstee-manifesto h3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+}	
 
-#img-1, #img-2, #img-3 {
-	height: 350px;
-	padding-bottom: 100px;
+#jubilee-austen h3, #rogue-pickings h3, #holstee-manifesto h3, #jubilee-austen p, #rogue-pickings p, #holstee-manifesto p {
+	text-align: center;
 }
-#pd-1, #pd-2, #pd-3 {
-	height:450px;
-}
-
 /*----------------------ABOUT ME STYLES------------------------*/
 #about-me {
 	background: #087e8b;
 	font-size: 1rem;
 	color: #ffffff;
-	float: left;
-	width: 1400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 #about-me h2 {
@@ -94,22 +90,28 @@ header p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.25em;
 	font-weight: bold;
+	width: 100%;
+
 }
 #profile-pic {
-	float: left;
-	width: 500px;
-
+	flex-basis: 50%;
 }
 
 img {
-  padding-left: 100px;
-
+	padding-left: 50px;
+	padding-bottom: 50px;
 }
 
 #about-me-info {
-	width: 500px;
-	float: right;
+	flex-basis: 50%;
 	top-padding: 0px;
+	text-align: left;
+	padding-right: 50px;
+	padding-bottom: 30px;
+
+}
+#about-me-info p {
+	width: 30em;
 }
 
 /*-----------------------CONTACT INFO STYLES-------------------------*/
@@ -117,47 +119,65 @@ img {
 	background: #095156;
 	color: #ffffff;
 	font-size: 1rem;
-	float: left;
-	width: 1400px;
-	height: 450px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	height: 100%;
 
 }
 
-#hire-me {
-	width: 500px;
-	float: left;
+#hire-me, #follow-me {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 50%;
+	flex-flow: row wrap;
 }
 
+#hire-me h3, #follow-me h3 {
+	width: 100%;
+}
 #follow-me {
-	width: 400px;
-	float: left;
+	padding-bottom: 50px;
 }
 
-#meet-me {
-	width: 500px;
-	float: right;
+#follow-me i {
+	padding-left: 15px;
 }
+
 #contact-info h2 {
 	text-align: center;
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
 	font-size: 2.25em;
+	width: 100%;
 }
 #contact-info h3 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.5em; 
-	text-align: center;
+	text-align: center;	
 }
 
+#hire-me h3 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
 
 #contact-info p {
 	text-align: center;
 	font-size: 1.5em;
+	padding-top: 0;	
 }
+
+
 /*------------------------------FOOTER STYLES---------------------*/
 footer {
-	width: 1400px;
-	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 	background: #095156;
 }
 footer h4 {
