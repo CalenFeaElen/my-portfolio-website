@@ -1,65 +1,111 @@
 <!doctype html>
-<html lang="en">
-    <head>
-    	<meta charset="utf-8">
-        <title>Chelsea Day | Portfolio</title>
-        <link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
-		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/9ff5fe0d95.js" crossorigin="anonymous"></script>
-     </head>
-    <body>
-        <header>
-        	<h1>Hi There! I'm Chelsea Day.</h1>
-        	<p>I'm a Front End Developer who loves to travel and try new things.</p>
-        </header>
-        <section class= "my-portfolio">
-            <div id= "my-portfolio-header">
-        	   <h2>My Portfolio</h2>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+    <header>
+        <div class="content-wrapper">
+            <h1>Hi There! I'm Chelsea Day.</h1>
+            <p>I'm a Front End Developer who loves to travel and try new things.</p>           
+        </div>
+    </header>
+
+    <main>
+        <section class="my-portfolio">
+            <div class="content-wrapper">
+                <h2>My Portfolio</h2>
+                <div class="portfolio-items">
+                    <article>
+                        <h3>Jubilee Austen Project</h3>
+                        <p>This project was coding up a simple portfolio site from a PSD, using HTML and CSS.</p>
+                        <img id="img-1" src="img/jubilee-thumbnail.png" alt="Sample Web Portfolio">
+                    </article>
+                    <article>
+                        <h3>Rogue Pickings Website</h3>
+                        <p>This project was coding the home page for a food truck site from a PSD, using HTML and CSS.</p>
+                        <img id="img-2" src="img/rogue-pickings-thumbnail.png" alt="Sample Website Design">
+                    </article>
+                    <article>
+                        <h3>Holstee Manifesto</h3>
+                        <p>This project was using CSS, and HTML, to recreate a picture of the Holstee Manifesto.</p>
+                        <img src="img/holstee-thumbnail.png" alt="Sample HTML & CSS Design of Holstee Manifesto"> 
+                    </article>
+                </div>
             </div>
-        	<div id= "jubilee-austen">
-                    <h3>Jubilee Austen Project</h3>
-                    <p>This project was coding up a simple portfolio site from a PSD, using HTML and CSS.</p>
-                    <img id="img-1" src="img/jubilee-thumbnail.png" alt="Sample Web Portfolio">
+        </section>
+
+        <section class="about-me">
+            <div class="content-wrapper">
+                <h2>About Me</h2>
+                <article>
+                    <figure>
+                        <img src="img/chelsea-photoshop.jpg" alt="Picture of me photo-shopped onto a space background">
+                    </figure>
+                    <div id="about-me-info">
+                        <p>Originally from the Pacific Northwest, and currently living on Guam, I'm a Front End Developer who thrives on details and crafting the best user experience possible. When I'm not working, pursuing craft projects or getting lost in a good book, I can be found snorkeling, hiking and searching for new experiences.</p>
+                    </div>
+                </article>
             </div>
-        	<div id= "rogue-pickings">
-                    <h3>Rogue Pickings Website</h3>
-                    <p>This project was coding the home page for a food truck site from a PSD, using HTML and CSS.</p>
-                    <img id="img-2" src="img/rogue-pickings-thumbnail.png" alt="Sample Website Design">
+        </section>
+    </main>
+
+    <footer>
+        <div class="content-wrapper">
+            <div class="footer-content">
+                <address class="hire-me">
+                    <h3>Hire Me</h3>
+                    <p>671-988-6391<br>CalenFeaElen@gmail.com</p>
+                </address>
+                <div class="social">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <p>
+                            <a href="https://www.github.com/CalenFeaElen/" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="https://www.linkedin.com/in/chelsea-day-1554b4108/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
             </div>
-        	<div id="holstee-manifesto">
-                    <h3>Holstee Manifesto</h3>
-                    <p>This project was using CSS, and HTML, to recreate a picture of the Holstee Manifesto.</p>
-                    <img src="img/holstee-thumbnail.png" alt="Sample HTML & CSS Design of Holstee Manifesto">
-        	</div>	
-        </section>
-        <section id="about-me">
-        	<h2>About Me</h2>
-        	<div id="profile-picture">
-        		<img src="img/chelsea-photoshop.png" width="350px" height="auto" alt="Picture of me photo-shopped onto a space background">
-        	</div>
-        	<div id="about-me-info">
-        		<p>Originally from the Pacific Northwest, and currently living on Guam, I'm a Front End Developer who thrives on details and the best user experience. When I'm not working, pursuing craft projects or getting lost in a good book, I can be found snorkeling, hiking and searching for new experiences.</p>
-        	</div>
-        </section>
-        <section id="contact-info">
-        	<h2>Let's Connect</h2>
-        	<div id="hire-me">
-        		<h3>Hire Me</h3>
-        		<p>671-988-6391<br>CalenFeaElen@gmail.com</p>
-        	</div>
-        	<div id="follow-me">
-        		<h3>Follow Me</h3>
-                <span style="font-size: 3rem;">
-                    <span style="color: white;">
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-linkedin"></i>
-                    </span>
-                </span>
-        	</div>
-        </section>
-        <footer>
-        	<h4>Copyright 2019 | Chelsea Day</h4>
-        </footer>
-    </body>	
+        </div>
+    </footer>
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>
