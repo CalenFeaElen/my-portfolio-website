@@ -225,6 +225,22 @@ footer h3 {
 footer .hire-me p {
   text-align: center;
 }
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  margin-bottom: 15px;
+}
+
+footer i {
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
