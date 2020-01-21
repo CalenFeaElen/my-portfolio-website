@@ -114,7 +114,9 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 1em;
-
+  background: url(../img/hero-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header .content-wrapper {
@@ -146,6 +148,10 @@ header p {
 /* -----------------------------Mobile Styles-------------------------------- */
 
 /* Header */
+
+header {
+  padding-top: 40px;
+}
 
 /* My Portfolio */
 
