@@ -336,16 +336,71 @@ footer i {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width:768px) {
+  /*Tablet styles here*/
+
+
+/* Header */
+  header {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+/*My Portfolio*/
+  .my-portfolio {
+    margin-bottom: 75px;
+  }
+
+  .my-portfolio .content-wrapper {
+    margin-bottom: 50px;
+  }
+
+  .my-portfolio article {
+  padding-bottom: 50px;
+  }
+
+ 
+
+
+
+/*About Me*/
+  .about-me article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+/*Footer*/
+
+
+
+
+
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+
+
+
+@media only screen and (min-width: 1200px) {
+  /*Desktop styles here*/
+
+
+
+
+  /*My Portfolio*/
+
+  .my-portfolio .content-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .my-portfolio article {
+    flex-basis: 50%;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+} 
 
 /* ==========================================================================
    Print styles.
