@@ -355,23 +355,61 @@ footer i {
     margin-bottom: 50px;
   }
 
-  .my-portfolio article {
-  padding-bottom: 50px;
+
+  .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-basis: 50%;
+    padding-bottom: 50px;
+    flex-direction: row-reverse;
   }
-
- 
-
+  .project div, .project figure {
+    min-width: 350px;
+  }
 
 
 /*About Me*/
+  .about-me {
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .about-me article{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
-/*Footer*/
+  .about-me h2{
+    font-size: 1.5em;
+  }
 
+  .about-me p {
+    font-size: 1.25em;
+  }
+
+/*Footer*/
+  footer .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  #footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  }
+  footer .social, footer .hire-me {
+    padding-right: 75px;
+  }
+
+  footer .copyright {
+  text-align: center;
+}
 
 
 
