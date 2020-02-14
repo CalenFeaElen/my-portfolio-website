@@ -181,7 +181,7 @@ header {
   width: 100%;
 }
 
-.my-portfolio h3, {
+.my-portfolio h3 {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -192,7 +192,7 @@ header {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-flow: column-wrap;
+  flex-flow: column;
   background: #087e8b;
   color: #ffffff;
   margin-top: 20px;
@@ -446,7 +446,7 @@ footer i {
 
   .my-portfolio article {
     flex-basis: 50%;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: space-between;
   }
 
