@@ -406,14 +406,12 @@ footer i {
   }
   footer .social, footer .hire-me {
     padding-right: 75px;
+    padding-left: 75px;
   }
 
   footer .copyright {
   text-align: center;
 }
-
-
-
 
 
 }
@@ -427,6 +425,7 @@ footer i {
 
   header {
    min-height: 800px;
+   padding: 50px;
   }
 
   header h1 {
@@ -435,6 +434,8 @@ footer i {
   header p {
     font-size: 3em;
   }
+
+  
 
   /*My Portfolio*/
 
@@ -462,6 +463,10 @@ footer i {
     max-width: 100%;
   }
 
+  .my-portfolio #img-3 {
+   margin-right: 20px;
+  }
+
 
 
  /* About Me */
@@ -482,7 +487,9 @@ footer i {
  }
 
  /*Footer*/
+ 
 
+ 
  footer h2 {
   font-size: 2.25em;
  }
@@ -491,13 +498,12 @@ footer i {
   font-size: 1.5em;
  }
 
- footer .social-icons, .hire-me {
-  margin-right: 40px;
+ footer .social, footer .hire-me {
+  padding-right: 75px;
+  padding-left: 75px;
  }
 
  footer i {
-  padding-left: 25px;
-  margin-right: 20px;
   text-align: center;
  }
 
